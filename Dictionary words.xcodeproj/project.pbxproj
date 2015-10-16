@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96B5C086AAA9F4DB0D126067 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F41EB680C83EC861DEA129 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A62B578C1BCE3615009C8EEE /* ShowResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62B578B1BCE3615009C8EEE /* ShowResultViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A66172D21BD145E300450BC8 /* WordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66172D11BD145E300450BC8 /* WordTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		A6D27D251BCD2F1200688927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D27D241BCD2F1200688927 /* AppDelegate.swift */; };
-		A6D27D271BCD2F1200688927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D27D261BCD2F1200688927 /* ViewController.swift */; };
 		A6D27D2A1BCD2F1200688927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D27D281BCD2F1200688927 /* Main.storyboard */; };
 		A6D27D2D1BCD2F1200688927 /* Dictionary_words.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6D27D2B1BCD2F1200688927 /* Dictionary_words.xcdatamodeld */; };
 		A6D27D2F1BCD2F1200688927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D27D2E1BCD2F1200688927 /* Assets.xcassets */; };
 		A6D27D321BCD2F1200688927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D27D301BCD2F1200688927 /* LaunchScreen.storyboard */; };
 		A6D27D3D1BCD2F1200688927 /* Dictionary_wordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D27D3C1BCD2F1200688927 /* Dictionary_wordsTests.swift */; };
 		A6D27D481BCD2F1200688927 /* Dictionary_wordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D27D471BCD2F1200688927 /* Dictionary_wordsUITests.swift */; };
+		A6D27D561BCD301D00688927 /* DictionaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D27D551BCD301D00688927 /* DictionaryTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A6D27D5C1BCD30B100688927 /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D27D5A1BCD30B100688927 /* Word+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		A6D27D5D1BCD30B100688927 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D27D5B1BCD30B100688927 /* Word.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41B952E9125F916150C422F2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		44F83D9B6949734F83D8848B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		56F41EB680C83EC861DEA129 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62B578B1BCE3615009C8EEE /* ShowResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowResultViewController.swift; sourceTree = "<group>"; };
+		A66172D11BD145E300450BC8 /* WordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordTableViewCell.swift; sourceTree = "<group>"; };
 		A6D27D211BCD2F1200688927 /* Dictionary words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dictionary words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D27D241BCD2F1200688927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6D27D261BCD2F1200688927 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6D27D291BCD2F1200688927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6D27D2C1BCD2F1200688927 /* Dictionary_words.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dictionary_words.xcdatamodel; sourceTree = "<group>"; };
 		A6D27D2E1BCD2F1200688927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		A6D27D431BCD2F1200688927 /* Dictionary wordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dictionary wordsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D27D471BCD2F1200688927 /* Dictionary_wordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary_wordsUITests.swift; sourceTree = "<group>"; };
 		A6D27D491BCD2F1200688927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D27D551BCD301D00688927 /* DictionaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTableViewController.swift; sourceTree = "<group>"; };
+		A6D27D5A1BCD30B100688927 /* Word+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A6D27D5B1BCD30B100688927 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B5C086AAA9F4DB0D126067 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89297D651012F2D5EA99128A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56F41EB680C83EC861DEA129 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A6D27D181BCD2F1200688927 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +104,8 @@
 				A6D27D3B1BCD2F1200688927 /* Dictionary wordsTests */,
 				A6D27D461BCD2F1200688927 /* Dictionary wordsUITests */,
 				A6D27D221BCD2F1200688927 /* Products */,
+				CD12F79E5F36602217C0137C /* Pods */,
+				89297D651012F2D5EA99128A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +123,11 @@
 			isa = PBXGroup;
 			children = (
 				A6D27D241BCD2F1200688927 /* AppDelegate.swift */,
-				A6D27D261BCD2F1200688927 /* ViewController.swift */,
+				A6D27D551BCD301D00688927 /* DictionaryTableViewController.swift */,
+				A62B578B1BCE3615009C8EEE /* ShowResultViewController.swift */,
+				A66172D11BD145E300450BC8 /* WordTableViewCell.swift */,
 				A6D27D281BCD2F1200688927 /* Main.storyboard */,
+				A6D27D591BCD307D00688927 /* DataStorage */,
 				A6D27D2E1BCD2F1200688927 /* Assets.xcassets */,
 				A6D27D301BCD2F1200688927 /* LaunchScreen.storyboard */,
 				A6D27D331BCD2F1200688927 /* Info.plist */,
@@ -128,6 +154,24 @@
 			path = "Dictionary wordsUITests";
 			sourceTree = "<group>";
 		};
+		A6D27D591BCD307D00688927 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				A6D27D5A1BCD30B100688927 /* Word+CoreDataProperties.swift */,
+				A6D27D5B1BCD30B100688927 /* Word.swift */,
+			);
+			name = DataStorage;
+			sourceTree = "<group>";
+		};
+		CD12F79E5F36602217C0137C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41B952E9125F916150C422F2 /* Pods.debug.xcconfig */,
+				44F83D9B6949734F83D8848B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6D27D4C1BCD2F1200688927 /* Build configuration list for PBXNativeTarget "Dictionary words" */;
 			buildPhases = (
+				821C15E582BF935F197F2D34 /* Check Pods Manifest.lock */,
 				A6D27D1D1BCD2F1200688927 /* Sources */,
 				A6D27D1E1BCD2F1200688927 /* Frameworks */,
 				A6D27D1F1BCD2F1200688927 /* Resources */,
+				E6DBCFB04178DB42A326CE93 /* Embed Pods Frameworks */,
+				A8C34933EA6DE515EBE0F871 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,14 +300,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		821C15E582BF935F197F2D34 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C34933EA6DE515EBE0F871 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6DBCFB04178DB42A326CE93 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A6D27D1D1BCD2F1200688927 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D27D271BCD2F1200688927 /* ViewController.swift in Sources */,
 				A6D27D2D1BCD2F1200688927 /* Dictionary_words.xcdatamodeld in Sources */,
+				A66172D21BD145E300450BC8 /* WordTableViewCell.swift in Sources */,
+				A6D27D561BCD301D00688927 /* DictionaryTableViewController.swift in Sources */,
+				A62B578C1BCE3615009C8EEE /* ShowResultViewController.swift in Sources */,
 				A6D27D251BCD2F1200688927 /* AppDelegate.swift in Sources */,
+				A6D27D5C1BCD30B100688927 /* Word+CoreDataProperties.swift in Sources */,
+				A6D27D5D1BCD30B100688927 /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +499,7 @@
 		};
 		A6D27D4D1BCD2F1200688927 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B952E9125F916150C422F2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Dictionary words/Info.plist";
@@ -411,6 +511,7 @@
 		};
 		A6D27D4E1BCD2F1200688927 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F83D9B6949734F83D8848B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Dictionary words/Info.plist";
@@ -487,6 +588,7 @@
 				A6D27D4E1BCD2F1200688927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6D27D4F1BCD2F1200688927 /* Build configuration list for PBXNativeTarget "Dictionary wordsTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +597,7 @@
 				A6D27D511BCD2F1200688927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6D27D521BCD2F1200688927 /* Build configuration list for PBXNativeTarget "Dictionary wordsUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +606,7 @@
 				A6D27D541BCD2F1200688927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -61,9 +61,7 @@
                             <outlet property="delegate" destination="4sl-Ze-oPS" id="6Gi-aH-adQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="A0f-mf-LoY">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="kP2-dv-rIv"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="A0f-mf-LoY"/>
                     <connections>
                         <outlet property="navigationItemGeneral" destination="A0f-mf-LoY" id="wa2-hk-uf0"/>
                         <segue destination="0My-U9-fTT" kind="show" identifier="showResults" id="LrA-9M-me7"/>

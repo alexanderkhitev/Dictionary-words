@@ -129,7 +129,6 @@ class DictionaryTableViewController: UITableViewController, NSFetchedResultsCont
     func controller(controller: NSFetchedResultsController, didChangeObject anObject: AnyObject, atIndexPath indexPath: NSIndexPath?, forChangeType type: NSFetchedResultsChangeType, newIndexPath: NSIndexPath?) {
         switch type {
         case NSFetchedResultsChangeType.Insert:
-//            tableView.insertRowsAtIndexPaths([newIndexPath!], withRowAnimation: .Fade)
             break
         case NSFetchedResultsChangeType.Delete:
             tableView.deleteRowsAtIndexPaths([indexPath!], withRowAnimation: .Fade)
@@ -144,7 +143,6 @@ class DictionaryTableViewController: UITableViewController, NSFetchedResultsCont
     func controller(controller: NSFetchedResultsController, didChangeSection sectionInfo: NSFetchedResultsSectionInfo, atIndex sectionIndex: Int, forChangeType type: NSFetchedResultsChangeType) {
         switch type {
         case NSFetchedResultsChangeType.Insert:
-//            tableView.insertSections(NSIndexSet(index: sectionIndex), withRowAnimation: .Fade)
             break
         case NSFetchedResultsChangeType.Delete:
             tableView.deleteSections(NSIndexSet(index: sectionIndex), withRowAnimation: .Fade)

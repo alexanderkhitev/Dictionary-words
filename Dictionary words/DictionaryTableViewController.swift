@@ -107,7 +107,6 @@ class DictionaryTableViewController: UITableViewController, NSFetchedResultsCont
         } else {
             if boolInternetSearch == false {
             let searchData = searchArray[indexPath.row] as! Word
-            
             cell.originalWord.text = searchData.wordOriginal
             cell.translatedWord.text = searchData.wordTranslation!
             } else {
@@ -191,7 +190,6 @@ class DictionaryTableViewController: UITableViewController, NSFetchedResultsCont
     // MARK: search results controller functions
     func updateSearchResultsForSearchController(searchController: UISearchController) {
         let searchText = searchController.searchBar.text
-        
         if searchText != nil {
             activityView.startAnimating()
             searchPredicate = NSPredicate(format: "wordOriginal contains[c] %@", searchText!)
@@ -199,7 +197,6 @@ class DictionaryTableViewController: UITableViewController, NSFetchedResultsCont
                 return searchPredicate.evaluateWithObject($0)
             } as [AnyObject]!
             tableView.reloadData()
-
         }
     }
     
@@ -256,7 +253,6 @@ class DictionaryTableViewController: UITableViewController, NSFetchedResultsCont
     }
     
     func didDismissSearchController(searchController: UISearchController) {
-        print("didDismissSearchController")
         activityView.stopAnimating()
         searchPredicate = nil
         internetArray.removeAll(keepCapacity: false)
